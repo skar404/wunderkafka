@@ -69,6 +69,7 @@ warn_untyped_fields = true
 [[tool.mypy.overrides]]
 module = [
     "aws_msk_iam_sasl_signer.*",
+	"botocore.*",
 	"confluent_kafka.*",
 	"dateutil.*",
 	"dataclasses_avroschema.*",

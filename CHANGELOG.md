@@ -1,5 +1,11 @@
 # CHANGELOG
 
+## v0.24.0 (2026-10-20)
+
+### Bugfixes
+
+- `OAuthCallback` (`wunderkafka.callbacks.auth.iam`) reuses one botocore session for refreshable credentials instead of creating one per token refresh (memory leak).
+
 ## v0.23.0 (2026-04-23)
 
 ### Breaking changes
